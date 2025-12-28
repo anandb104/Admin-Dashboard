@@ -11,8 +11,8 @@ body{
     grid-column:1/2;
     grid-row:1/3;
     display:inline-grid;
-    grid-template-rows: 5rem 2rem 2rem 2rem 2rem 2rem  5rem 2rem 2rem 2rem;
-    padding:2rem;
+    /* grid-template-rows: 5rem 2rem 2rem 2rem 2rem 2rem 5rem 2rem 2rem 2rem; */
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
     align-content: space-evenly;
     color:white;
     font-size:1.5rem;
@@ -26,6 +26,7 @@ grid-template-columns: 1fr 1fr;
 background-color:white;
 grid-row:1/2;
 grid-column:2/3;
+
 font-family: 'Bitcount Prop Single',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .content{
@@ -54,6 +55,7 @@ input{
     font-size:100%;
     border-radius: 2rem;
     background-color: lightgray;
+    height:2rem
 }
 .acc-info{
     display:grid;
@@ -63,7 +65,7 @@ input{
 }
 .acc-greet{
     display: grid;
-    grid-template-columns: 2rem 1fr;
+    grid-template-columns: 6rem 1fr;
     justify-items: center;
     align-items: center;
 }
@@ -78,7 +80,8 @@ input{
 button{
     background-color: lightblue;
     border-radius: 2rem;
-    color:white;
+    color:black;
+    font-weight:bold;
 }
 button:hover{
     background-color: black;
@@ -146,3 +149,35 @@ button:hover{
    grid-template-columns: 2rem 1fr;
    gap:3rem;
 }
+.acc-dp{
+    width:3rem;
+}
+.dashboard:hover{
+    background-color:white;
+}
+.home:hover{
+    background-color:white;
+}
+.profile:hover{
+    background-color:white;
+}
+.message:hover{
+    background-color:white;
+}
+.tasks:hover{
+    background-color:white;
+}
+.communities:hover{
+    background-color:white;
+}
+.setting:hover{
+    background-color:white;
+}
+.support:hover{
+    background-color:white;
+}
+.privacy:hover{
+    background-color:white;
+}
+
+
