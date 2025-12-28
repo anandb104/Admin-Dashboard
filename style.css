@@ -80,6 +80,7 @@ input{
 button{
     background-color: lightblue;
     border-radius: 2rem;
+    width:7rem;
     color:black;
     font-weight:bold;
 }
@@ -150,7 +151,8 @@ button:hover{
    gap:3rem;
 }
 .acc-dp{
-    width:3rem;
+    width:2rem;
+    border-radius: 50%;
 }
 .dashboard:hover{
     background-color:white;
